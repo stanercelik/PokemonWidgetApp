@@ -31,6 +31,6 @@ struct PokemonRowView: View {
 
 struct PokemonView_Previews: PreviewProvider {
     static var previews: some View {
-        PokemonRowView(pokemon: snorlax)
+        PokemonRowView(pokemon: snorlax).previewLayout(.sizeThatFits)
     }
 }
