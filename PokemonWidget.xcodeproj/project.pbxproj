@@ -15,6 +15,8 @@
 		201EFCBA2A09442400B69F07 /* PokemonWidgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201EFCB92A09442400B69F07 /* PokemonWidgetUITests.swift */; };
 		201EFCBC2A09442400B69F07 /* PokemonWidgetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201EFCBB2A09442400B69F07 /* PokemonWidgetUITestsLaunchTests.swift */; };
 		201EFCCA2A09465C00B69F07 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201EFCC92A09465C00B69F07 /* Pokemon.swift */; };
+		20481C3D2A0D21270029CDD5 /* OzelGorselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20481C3C2A0D21270029CDD5 /* OzelGorselView.swift */; };
+		20481C3F2A0D23CD0029CDD5 /* PokemonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20481C3E2A0D23CD0029CDD5 /* PokemonRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		201EFCB92A09442400B69F07 /* PokemonWidgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonWidgetUITests.swift; sourceTree = "<group>"; };
 		201EFCBB2A09442400B69F07 /* PokemonWidgetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonWidgetUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		201EFCC92A09465C00B69F07 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		20481C3C2A0D21270029CDD5 /* OzelGorselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzelGorselView.swift; sourceTree = "<group>"; };
+		20481C3E2A0D23CD0029CDD5 /* PokemonRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +100,9 @@
 		201EFC9D2A09442200B69F07 /* PokemonWidget */ = {
 			isa = PBXGroup;
 			children = (
+				20481C3B2A0D20EC0029CDD5 /* App */,
+				20481C3A2A0D20E70029CDD5 /* View */,
 				201EFCC82A09464D00B69F07 /* Model */,
-				201EFC9E2A09442200B69F07 /* PokemonWidgetApp.swift */,
-				201EFCA02A09442200B69F07 /* ContentView.swift */,
 				201EFCA22A09442300B69F07 /* Assets.xcassets */,
 				201EFCA42A09442300B69F07 /* Preview Content */,
 			);
@@ -136,6 +140,24 @@
 				201EFCC92A09465C00B69F07 /* Pokemon.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		20481C3A2A0D20E70029CDD5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				201EFCA02A09442200B69F07 /* ContentView.swift */,
+				20481C3C2A0D21270029CDD5 /* OzelGorselView.swift */,
+				20481C3E2A0D23CD0029CDD5 /* PokemonRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20481C3B2A0D20EC0029CDD5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				201EFC9E2A09442200B69F07 /* PokemonWidgetApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20481C3D2A0D21270029CDD5 /* OzelGorselView.swift in Sources */,
 				201EFCA12A09442200B69F07 /* ContentView.swift in Sources */,
 				201EFC9F2A09442200B69F07 /* PokemonWidgetApp.swift in Sources */,
+				20481C3F2A0D23CD0029CDD5 /* PokemonRowView.swift in Sources */,
 				201EFCCA2A09465C00B69F07 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

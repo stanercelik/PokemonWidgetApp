@@ -10,11 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image("pikachu")
-                .resizable()
-                .frame(width: UIScreen.main.bounds.width * 0.5 ,
-                       height: UIScreen.main.bounds.width * 0.5)
-            Text("Hello, world!")
+            ForEach(pokemonList) { pokemon in
+                PokemonRowView(pokemon: pokemon)
+            } 
         }
         .padding()
     }

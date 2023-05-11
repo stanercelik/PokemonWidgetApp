@@ -24,3 +24,5 @@ struct Pokemon : Identifiable, Codable {
 let pikachu = Pokemon(type: "Mouse Pokemon", gorselIsmi: "pikachu", isim: "Pikachu")
 let jigglypuff = Pokemon(type: "Bilmm Pokemon", gorselIsmi: "jigglypuff", isim: "Jigglypuff")
 let snorlax = Pokemon(type: "Random Pokemon", gorselIsmi: "snorlax", isim: "Snorlax")
+
+let pokemonList = [pikachu, jigglypuff, snorlax]
